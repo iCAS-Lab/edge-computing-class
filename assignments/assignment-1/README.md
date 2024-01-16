@@ -48,13 +48,15 @@ Your deliverable for this assignment will consist of a 1-2 page written analysis
 
 - A table of all your training and inference results across the different devices used throughout the experiments. Your table should look like:
 
-| Device      | Training Acc. | Training Loss | Validation Acc. | Validation Loss | Training Time | Test Accuracy | Average Latency |
-| ----------- | ------------- | ------------- | --------------- | --------------- | ------------- | ------------- | --------------- |
+| Device      | Training Acc. | Training Loss | Validation Acc. | Validation Loss | Training Time | Test Accuracy | Latency | Average Latency |
+| ----------- | ------------- | ------------- | --------------- | --------------- | ------------- | ------------- | ------- | --------------- |
 | CPU         |
 | GPU T4 x2   |
 | GPU P100    |
 | TPU VM v3-8 |
 
-- The model with the best latency and accuracy score defined by:
+- You should briefly discuss the results you gathered in the table across the different hardware devices. This discussion should discuss the differences between the different devices.
 
-$$SCORE = {Accuracy_{test} \over Latency_{test}}$$
+- Along with your Assignment 1 report including the summary and the table and analysis you should include the model, the `*.h5` file, of the best performing model maximizing the following score:
+
+$$SCORE = {Accuracy_{test} \over Latency}$$
