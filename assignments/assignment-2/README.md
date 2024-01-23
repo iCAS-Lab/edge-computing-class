@@ -1,4 +1,4 @@
-# Assignment 1: Convolutional Neural Networks
+# Assignment 2: Convolutional Neural Networks
 
 [CSCE 790: Edge and Neuromorphic Computing]()  
 Instructor: [Dr. Ramtin Zand]()  
