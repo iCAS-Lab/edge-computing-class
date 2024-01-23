@@ -30,7 +30,7 @@ Once all of these steps have been completed you will be added to a Kaggle group.
 
 4. Run the Jupyter notebook to train the LeNet-5 model on the MNIST Handwritten Digit dataset.
 
-5. Save your trained model as an `*.h5` file. This file contains the saved weights and activations for your trained model. This file allows you to use your trained model without re-training it each time.
+5. Save your trained model as an `*.keras` file. This file contains the saved weights and activations for your trained model. This file allows you to use your trained model without re-training it each time.
 
 6. At the end of the notebook, you will see the `Test Accuracy` and `Latency` sections. Record/save these two metrics for analysis later.
 
@@ -52,7 +52,7 @@ Your deliverable for this assignment will consist of a 1-2 page written analysis
 
 - A table of all your training and inference results across the different devices used throughout the experiments. Along with the metrics already reported by the Kaggle notebook, you should compute the `Score` of the best model per device computed by:
 
-$$SCORE = {Accuracy_{test}*100 \over Latency_{test}}$$
+$$SCORE = {Accuracy_{test} \over Latency_{test}}$$
 
 Your table should look like:
 
@@ -67,4 +67,4 @@ Your table should look like:
 
 - Along with your Assignment 1 report, you should include the model, the `*.keras` file, of the best performing model maximizing the following score:
 
-$$SCORE = {Accuracy_{test}*100 \over Latency_{test}}$$
+$$SCORE = {Accuracy_{test} \over Latency_{test}}$$
