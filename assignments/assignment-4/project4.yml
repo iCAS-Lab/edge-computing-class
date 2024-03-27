@@ -1,4 +1,4 @@
-name: project3
+name: project4
 channels:
   - conda-forge
 dependencies:
