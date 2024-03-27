@@ -1,4 +1,4 @@
-# Project 4: Single Izhikevich Neuron Simulation
+# Project 5: Single Izhikevich Neuron Simulation
 
 [CSCE 790: Neuromorphic Computing](https://www.icaslab.com/teaching/csce790nc)  
 Instructor: [Dr. Ramtin Zand](https://icaslab.com)  
@@ -17,7 +17,7 @@ In this project, students will implement a single Izhikevich neuron which has on
 
 A conda environment .yml file has been provided that lists all of the necessary dependencies. Students can import the conda environment by running:
 
-`conda env create -n project4 --file project4.yml`
+`conda env create -n project5 --file project5.yml`
 
 The `main.py' python script has been provided with some boilerplate functions to help students know what to implement.
 
