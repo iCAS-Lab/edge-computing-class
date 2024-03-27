@@ -5,3 +5,4 @@
 ## Assignments
 
 - [Assignment 1](./assignments/assignment-1/)
+- [Assignment 4](./assignments/assignment-4/)
